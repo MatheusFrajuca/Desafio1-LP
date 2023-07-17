@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+
+#pagina{
+background-color: gray;
+width: 1440px;
+
+}
+
+#menu-superior{
+
+    background-color: #303030;
+    color: #303030;
+    display: grid;
+    align-items: center;  
+      
+    columns: auto;
+    width: 1440px;
+    height: 475px;
+     
+}
+
+#titulo-menusuperior{
+
+    color: #FFF;  
+    font-family: "inter";
+    margin: 206px 354px 197px 62px;
+    font-weight: 600;
+    width: 1024px;
+    height: 72px;
+    font-size: 60px;
+    line-height: 72px;
+    display: flex;
+    letter-spacing: -1.5px;
+    font-style: normal;
+
+}
+
+#texto-menusuperior{
+
+    color: #FFF;
+    margin: -298px 0px 0px 62px;
+    font-family: "inter";
+    width: 1024px;
+    height: 28px;
+    font-size: 20px;
+}
+
+
+#menu-informacional{
+
+    background-color: #f9f9f9;
+    display: flex;        
+    grid-auto-flow: column;
+    columns: auto;
+    width: 1440px;
+    height: 229px;
+    align-items: center;
+    
+}
+
+
+
+
+.titulo-informativo{
+    
+    margin: 120px;
+ 
+}
+
+#portifilio{
+
+    background-color: white;
+    display: flex;        
+    grid-auto-flow: column;
+    columns: auto;
+    width: 1440px;
+    height: 774px;
+    
+
+
+}
+
+
+#titulo-portifolio{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 50% */
+
+    display: flex;
+    width: 735px;
+    height: 161px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 180px;
+    margin-left: 77px;
+
+}
+
+#texto-portifolio{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-left: 77px;
+}
+
+#image-portifolio{
+
+    margin-left: 64px;
+    margin-top: 62px;
+
+    width: 510px;
+    height: 605px;
+    flex-shrink: 0;
+
+    border-radius: 30px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+
+
+
+
+#cadastro{
+
+    background-color: #303030;
+    color: #f9f9f9;
+    width: 1440px;
+    height: 638px;
+    
+    
+    
+    
+}
+
+#texto-cadastro{
+
+    color: #FFF;
+    width: 944px;
+    height: 48px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 150%;  
+    margin-left: 248px;
+    padding-top: 87px;
+      
+}
+
+
+#nome{
+
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+
+    width: 508px;
+    height: 72px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #FFF;
+
+    margin-left: 466px;
+    margin-top: 48px;
+
+}
+
+#email{
+
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+
+    width: 508px;
+    height: 72px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #FFF;
+
+    margin-left: 466px;
+    margin-top: 62px;
+
+}
+
+.botao{
+
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+
+    width: 286px;
+    height: 74px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #C07212;
+
+    margin-left: 577px;
+    margin-top: 88px;
+}
